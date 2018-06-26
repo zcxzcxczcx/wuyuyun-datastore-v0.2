@@ -1,0 +1,5 @@
+/************************** status接口说明文档**************************/
+/************************** data接口说明文档,数据库是influxdb**************************/
+原始数据放在influxdb的iot_device_data表
+有一个continuous query cq_for8dby1h 统计的数据放在了device_data_for8dby1h 表,查询范围是8d,统计间隔是1h
+有一个continuous query cq_for1yby1d 统计的数据放在了device_data_for1yby1d 表,查询范围是1y,统计间隔是1d

@@ -1,0 +1,7 @@
+121.199.18.4服务器：
+data_store服务：从121.199.18.4服务器的broker订阅+/data,+/status主题的数据存入116.62.48.231服务器的wuyuyun0.2数据库（mysql）
+ub_toinfluxdb服务，从121.199.18.4服务器的broker订阅+/data主题的数据存入121.199.18.4服务器的wuyuyun_sub数据库(influxdb)
+116.62.48.231服务器：
+sub_tomysql服务，从116.62.48.231服务器的broker订阅+/data,+/status主题的数据存入116.62.48.231服务器的xyfc数据库（mysql）
+sub_tomysql服务，从116.62.48.231服务器的broker订阅+/data,+/status主题的数据存入116.62.48.231服务器的wuyuyun0.2数据库（mysql）
+sub_toinfluxdb服务，从116.62.48.231服务器的broker订阅+/data主题的数据存入116.62.48.231服务器的wuyuyun_sub数据库(influxdb)

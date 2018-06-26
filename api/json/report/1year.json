@@ -1,0 +1,8 @@
+{
+  "year": "2018",
+  "min": 20, "max": 88, "avg": 65,
+  "months": [
+    { "month": 1, "min": 20, "max": 88, "avg": 65 },
+    { "month": 2, "min": 20, "max": 88, "avg": 65 }
+  ]
+}

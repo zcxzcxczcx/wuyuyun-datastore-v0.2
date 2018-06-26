@@ -1,0 +1,8 @@
+{
+  "date": "2018-04-26", "hour": 1, "min": 20, "max": 88, "avg": 65,
+  "minutes": [
+    { "minute": 1, "min": 11, "max": 34, "avg": 24 },
+    { "minute": 2, "min": 11, "max": 34, "avg": 24 },
+    { "minute": 3, "min": 11, "max": 34, "avg": 24 }
+  ]
+}
